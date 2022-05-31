@@ -1,49 +1,50 @@
+div{
+  overflow: hidden;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  
   background-color: purple;
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
+ 
 }
 li {
   float: left;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1.6rem;
   text-decoration: none;
   font-weight: bolder;
 }
 .small {
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
-ul div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 25%;
+ul div{
+  display: inline;
 }
 
 li a button {
   background-color: white;
-  width: 200px;
-  height: 50px;
+  width: 10rem;
+  height: 2rem;
   border: none;
   border-radius: 30px;
   color: black;
   font-weight: bolder;
+  font-size: 0.8rem;
   cursor: pointer;
 }
 .inputlabel {

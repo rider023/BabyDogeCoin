@@ -15,11 +15,11 @@ function App() {
     <Navbar/>
     <Home/>
     <Game/>
-    <Congratulations/>
+    {/* <Congratulations/>
     <Gameover/>
     <Dashboard/>
     <PrivacyPolicy/>
-    <Footer/>
+    <Footer/> */}
     
     </div>
   );
