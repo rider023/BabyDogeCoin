@@ -1,0 +1,36 @@
+.bg_image {
+  background-image: url("/public/images/Image\ 34.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 100vh;
+  width: 100vw;
+}
+.logo {
+  height: 35vh;
+  /* width: 30vw; */
+  position: absolute;
+  top: 16%;
+  left: 35%;
+}
+.imglogo {
+  height: 50vh;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+}
+
+.play {
+  color: rgb(6, 6, 85);
+  font-weight: bolder;
+  font-size: large;
+  background-color: white;
+  height: 8vh;
+  width: 15vw;
+  padding: 3px;
+  border-radius: 25px;
+  cursor: pointer;
+  border-color: transparent;
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}

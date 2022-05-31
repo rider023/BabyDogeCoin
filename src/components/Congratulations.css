@@ -1,0 +1,86 @@
+.img {
+  background-image: url("/public/images/Image\ 34.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 105vh;
+  width: 100vw;
+}
+.txt {
+  position: relative;
+  top: 9%;
+  width: 60vw;
+  height: 80vh;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.178);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.dogdancing {
+  position: relative;
+  height: 35vh;
+  top: -35%;
+  left: 40%;
+}
+.ellipse {
+  position: relative;
+  top: -17%;
+  left: 8%;
+  z-index: -1;
+}
+.coin {
+  position: relative;
+  top: -41%;
+  left: 35%;
+}
+.congratulations {
+  position: relative;
+  /* font-size: larger !important; */
+  top: 0%;
+  left: 35%;
+}
+.subheading {
+  position: relative;
+  color: white;
+  left: 40%;
+}
+.coinswon {
+  position: relative;
+  top: -40%;
+  color: white;
+  left: 40%;
+}
+.noofcoins {
+  position: relative;
+  top: -55%;
+}
+.rankheading {
+  position: relative;
+  top: -76%;
+  left: 55%;
+  color: white;
+}
+.rank {
+  position: relative;
+  top: -77%;
+  left: 55%;
+}
+h1,
+h4,
+h5 {
+  width: fit-content;
+}
+.next {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  color: black;
+  border-radius: 20px;
+  top: 87%;
+  left: 83%;
+  border: 2px solid whitesmoke;
+  color: white;
+}

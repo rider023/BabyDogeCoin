@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+li {
+  float: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.small {
+  margin-left: 30px;
+}
+
+ul div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+}
+
+li a button {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.inputlabel {
+  display: none;
+}

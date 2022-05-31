@@ -1,0 +1,260 @@
+.token {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 33vw;
+  height: 25vh;
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.balance {
+  position: relative;
+  left: 47%;
+  top: -15%;
+  width: 33vw;
+  height: 25vh;
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.dashboard {
+  position: relative;
+  left: 10%;
+  top: -10%;
+  width: 70vw;
+  height: 55vh;
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.line1 {
+  width: 30vw;
+  position: relative;
+  top: -15%;
+  left: 3%;
+}
+.tokenb {
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  position: relative;
+  left: 5%;
+}
+.money {
+  color: yellow;
+  position: relative;
+  top: -30%;
+  left: 35%;
+  font-size: xx-large;
+}
+.add {
+  position: relative;
+  top: -45%;
+  left: 15%;
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 26px;
+}
+.remove {
+  border-radius: 26px;
+  top: -45%;
+  left: 25%;
+  position: relative;
+  padding: 12px;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  background-color: transparent;
+}
+
+.line2 {
+  position: relative;
+  top: -18%;
+  left: 3%;
+  width: 65vw;
+}
+.avatar {
+  position: relative;
+  top: 5%;
+  left: -90%;
+}
+.name {
+  position: relative;
+  top: -15%;
+  left: 10%;
+  color: white;
+  font-weight: 300;
+
+  width: fit-content;
+}
+.chart {
+  position: relative;
+  top: -10%;
+  left: 15%;
+}
+.orange {
+  position: relative;
+  top: -37.5%;
+  left: -16%;
+}
+.green {
+  position: relative;
+  top: -51%;
+  left: 3%;
+}
+.purple {
+  top: -67%;
+  left: 3%;
+  position: relative;
+}
+.win {
+  position: relative;
+  top: -50%;
+  left: 5%;
+}
+.loss {
+  position: relative;
+  top: -79%;
+  left: 5%;
+}
+.walkover {
+  position: relative;
+  top: -64%;
+  left: 5%;
+}
+.hline {
+  position: relative;
+  height: 40vh;
+  left: 35%;
+  top: -150%;
+}
+.winn {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  color: yellow;
+  font-size: larger;
+  font-weight: 500;
+}
+.lossn {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  color: yellow;
+  font-size: larger;
+  font-weight: 500;
+}
+.walkovern {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  color: yellow;
+  font-size: larger;
+  font-weight: 500;
+}
+.earning {
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  color: yellow;
+  font-size: medium;
+  font-weight: 500;
+}
+.losses {
+  position: absolute;
+  top: 68%;
+  left: 40%;
+  color: yellow;
+  font-size: medium;
+  font-weight: 500;
+}
+.kills {
+  position: absolute;
+  top: 28%;
+  left: 40%;
+  color: yellow;
+  font-size: medium;
+  font-weight: 500;
+}
+.winno {
+  color: white;
+  position: relative;
+  top: -225%;
+}
+.lossno {
+  color: white;
+  position: relative;
+  top: -244%;
+  left: 49%;
+}
+.walkoverno {
+  color: white;
+  position: relative;
+  top: -263%;
+  left: 62%;
+}
+.killsno {
+  color: white;
+  position: relative;
+  top: -265%;
+}
+.earningno {
+  color: white;
+  position: relative;
+  top: -265%;
+}
+.earninglost {
+  color: white;
+  position: relative;
+  top: -265%;
+}
+.hline1 {
+  position: relative;
+  top: -350%;
+  left: 75%;
+
+  height: 42vh;
+}
+.rankheading1 {
+  position: relative;
+  top: -432%;
+  left: 85%;
+  color: white;
+
+  width: fit-content;
+}
+.rankhno {
+  position: relative;
+  top: -435%;
+  left: 85%;
+  font-size: xx-large;
+  color: white;
+}
+.line3 {
+  position: relative;
+  top: -445%;
+  left: 77%;
+  width: 15vw;
+}
+.ratings {
+  position: relative;
+  top: -435%;
+  left: 78%;
+
+  width: fit-content;
+}
+.gamename {
+  color: white;
+}
